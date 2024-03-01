@@ -17,10 +17,7 @@ function login(req, res) {
     })
 }
 
-/**
- * Función genérica para el control de acceso basado en roles
- * @param {*} permiso 
- */
+
 function controlAcceso(permiso) {
   return function (req, res, next) {
     const usuario = req.session.usuario
