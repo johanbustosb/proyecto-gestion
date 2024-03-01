@@ -1,0 +1,34 @@
+{
+  "name": "project-manager",
+  "version": "1.0.0",
+  "description": "Gestor de proyectos y tareas con RBAC y seguimiento de tiempos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "mocha",
+    "jsdoc": "jsdoc -d docs -r api controllers models"
+  },
+  "author": "Jairo Chapela Martínez",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-cors": "0.0.3",
+    "express-session": "^1.17.1",
+    "mariadb": "^2.4.1",
+    "md5": "^2.2.1",
+    "moment": "^2.27.0",
+    "sequelize": "^6.3.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^84.0.1",
+    "jsdoc": "^3.6.5",
+    "mocha": "^8.1.0",
+    "nodemon": "^2.0.4",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
