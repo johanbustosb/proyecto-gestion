@@ -19,7 +19,7 @@ describe("Formulario de login", function () {
             let firstResult = await driver.wait(until.elementLocated(By.css('h1')), 10000);
 
             //console.log(await firstResult.getAttribute('textContent'));
-            assert.equal("Bienvenido, Jairo", await (await firstResult.getAttribute('textContent')).trim());
+            assert.equal("Bienvenido, Johan", await (await firstResult.getAttribute('textContent')).trim());
 
         }
         finally{
